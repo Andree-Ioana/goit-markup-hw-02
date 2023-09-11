@@ -75,8 +75,8 @@ h1 {
     line-height: 30px;
     cursor: pointer
 }
-.button-service button:hover{
-    color: #212121;
+ .button-service:hover{
+    color: #00000026;
 }
 
 .about-us p{
@@ -157,7 +157,7 @@ h4{
     color: #2196F3;
 }
 
-button {
+.portofolio-button button {
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
@@ -165,11 +165,13 @@ button {
     color: #212121;
     
 }
- button:hover{
+ .portofolio-button button:hover{
     color: #FFFFFF;
     background-color: #2196F3;
 }
-
+ .portofolio-button button:active{
+    color: orange;
+ }
  
 
 .images .description-product{
