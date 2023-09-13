@@ -76,7 +76,7 @@ h1 {
     cursor: pointer
 }
  .button-service:hover{
-    color: #00000026;
+    background-color: #757575;
 }
 
 .about-us p{
@@ -165,7 +165,10 @@ h4{
     color: #212121;
     
 }
- .portofolio-button button:hover{
+
+
+ .portofolio-button button:hover,
+ .portofolio-button:focus {
     color: #FFFFFF;
     background-color: #2196F3;
 }
@@ -187,4 +190,8 @@ h4{
     font-size: 16px;
     line-height: 30px;
     
+}
+
+.nav-link current{
+    color: #4d0752;
 }
